@@ -1,0 +1,115 @@
+/* logo */
+.logo {
+  display: inline-block;
+  border-radius: 999px;
+  border: solid #e6df44;
+  padding: 5px;
+  margin-top: 15px;
+  margin-left: 5px;
+  box-shadow: 10px 5px 10px rgb(235, 196, 67);
+  color: transparent;
+  background: linear-gradient(135deg, #f0810f, #e6df44);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #063852;
+  margin: 0;
+}
+.navbar-toggler-icon {
+  filter: invert(100%);
+}
+/* Thanh ngang mở rộng phía dưới */
+.horizontal-line {
+  width: 100%;
+  height: 4px;
+  background-color: #3ea4da; /* Màu của thanh ngang */
+  box-shadow: 5px 5px 15px #39afef;
+  margin-top: 10px;
+}
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+.categories {
+  gap: 20px;
+  padding: 20px;
+}
+.category {
+  background: linear-gradient(135deg, #f0810f, #e6df44);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: #063852;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-decoration: none;
+}
+
+.conversion-form {
+  margin: 20px auto;
+  max-width: 400px;
+  background: #011a27;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  color: #f9f9f9;
+}
+
+.conversion-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #e6df44;
+}
+
+.conversion-form select,
+.conversion-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.conversion-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f0810f;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.conversion-form button:hover {
+  background-color: #e6df44;
+}
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e6df44;
+}
+
+.conversion-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.result {
+  text-align: center;
+  font-weight: bold;
+}
+
+#convert-button {
+  margin-top: 15px;
+}

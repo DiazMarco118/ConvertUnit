@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nhiệt độ</title>
+    <link rel="stylesheet" href="./asset/style.css" />
+    <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.min.css" />
+  </head>
+  <body class="main">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#"><b>Unit Convert</b></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Lịch sử</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Cài Đặt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="horizontal-line"></div>
+    <div class="container">
+      <h1 style="color: #e6df44">Chuyển đổi Nhiệt độ</h1>
+      <div class="conversion-form">
+        <label for="unit-from">Chọn đơn vị gốc:</label>
+        <select id="unit-from">
+          <option value="F">F</option>
+          <option value="C">C</option>
+          <option value="K">K</option>
+        </select>
+
+        <label for="unit-to">Chọn đơn vị đích:</label>
+        <select id="unit-to">
+          <option value="F">F</option>
+          <option value="C">C</option>
+          <option value="K">K</option>
+        </select>
+
+        <label for="value">Nhập giá trị:</label>
+        <input type="number" id="value" placeholder="Nhập số..." />
+
+        <button id="convert-button">Chuyển đổi</button>
+
+        <button id="reset-button" class="btn btn-secondary mt-3">
+          Đặt lại
+        </button>
+
+        <div
+          class="result alert alert-info mt-3"
+          role="alert"
+          style="display: none"
+        >
+          kết quả:
+        </div>
+      </div>
+    </div>
+    <script src="./asset/javaScript.js"></script>
+    <script src="./asset/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
