@@ -120,9 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
       result = value * rate;
     }
 
-    resultDiv.textContent = `${value} ${fromUnit} = ${result.toFixed(
-      2
-    )} ${toUnit}`;
+    resultDiv.textContent = `${value} ${fromUnit} = ${result} ${toUnit}`;
     resultDiv.style.color = "green";
     resultDiv.style.display = "block";
   });
